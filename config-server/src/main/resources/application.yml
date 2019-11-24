@@ -1,0 +1,30 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: config-service
+  cloud:
+    stream:
+      kafka:
+        binder:
+          broker: "localhost:9092"
+    config:
+      server:
+        git:
+          uri: https://github.com/devang-desai/config-server.git
+          clone-on-startup: true
+          searchPaths: config/{application}
+          username: devang-desai
+          password: Dqjxqm81!
+eureka: #tells about the Eureka server details and its refresh time
+  instance:
+    leaseExpirationDurationInSeconds: 2
+    leaseRenewalIntervalInSeconds: 1
+  client:
+    healthcheck:
+      enabled: true
+    lease:
+      duration: 5
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8761/eureka/
+    enabled: true
