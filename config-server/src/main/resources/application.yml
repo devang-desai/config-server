@@ -4,10 +4,10 @@ spring:
   application:
     name: config-service
   cloud:
-    stream:
-      kafka:
-        binder:
-          broker: "localhost:9092"
+#    stream:
+#      kafka:
+#        binder:
+#          broker: "localhost:9092"
     config:
       server:
         git:
