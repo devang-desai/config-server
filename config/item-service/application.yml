@@ -10,6 +10,6 @@ eureka: #tells about the Eureka server details and its refresh time
 default:
    item:
        id: 1001
-       name: test item
-       desc: test desc
+       name: sample item
+       desc: sample desc
        price: 0.0
