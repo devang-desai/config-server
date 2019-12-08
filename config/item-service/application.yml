@@ -19,6 +19,6 @@ management:
 default:
    item:
        id: 1001
-       name: test item
+       name: abc item
        desc: test desc
        price: 0.0
