@@ -13,6 +13,8 @@ management:
         include:
         - helath
         - refresh
+        - bus-refresh
+        - bus-env
 default:
    item:
        id: 1001
