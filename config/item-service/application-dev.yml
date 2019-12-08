@@ -1,6 +1,6 @@
 #jdbc uri jdbc:h2:mem:testdb
 server:
-    port: 8084
+    port: 8085
 eureka: #tells about the Eureka server details and its refresh time
   client:
     healthcheck:
