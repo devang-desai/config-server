@@ -1,4 +1,12 @@
-#jdbc uri jdbc:h2:mem:testdb
+spring:
+    application:
+        name: item-service
+    rabbitmq:
+#        host: CTSC00705896501
+        host: localhost
+        port: 5672
+        username: guest
+        password: guest
 server:
     port: 8085
 eureka: #tells about the Eureka server details and its refresh time
@@ -14,7 +22,8 @@ management:
         include:
         - helath
         - refresh
-		- 'bus-refresh'
+		- bus-refresh
+		- bus-dev
 default:
    item:
        id: 1001
