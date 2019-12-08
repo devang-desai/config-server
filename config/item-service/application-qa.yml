@@ -17,6 +17,6 @@ management:
 default:
    item:
        id: 1001
-       name: pqr item
+       name: qa item
        desc: qa desc
        price: 0.0
