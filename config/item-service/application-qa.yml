@@ -18,6 +18,6 @@ management:
 default:
    item:
        id: 1001
-       name: xyz item
+       name: qa item
        desc: qa desc
        price: 0.0
