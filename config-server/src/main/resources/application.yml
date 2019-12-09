@@ -11,11 +11,11 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/devang-desai/config-server.git
+          uri: https://github.com/username/config-server.git
           clone-on-startup: true
           searchPaths: config/{application}
-          username: devang-desai
-          password: Dqjxqm81!
+          username: username
+          password: password
 eureka: #tells about the Eureka server details and its refresh time
   instance:
     leaseExpirationDurationInSeconds: 2
