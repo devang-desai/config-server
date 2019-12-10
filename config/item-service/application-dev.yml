@@ -1,12 +1,19 @@
 server:
     port: 8085
-eureka: #tells about the Eureka server details and its refresh time
-  client:
-    healthcheck:
-      enabled: true
-    serviceUrl:
-      defaultZone: https://eureka-fbba30ba-a0d7-4a96-80e9-f9b36ec1b6a8.cfapps.io
+#eureka: #tells about the Eureka server details and its refresh time
+#  client:
+#    healthcheck:
+#      enabled: true
+#    serviceUrl:
+#      defaultZone: https://eureka-fbba30ba-a0d7-4a96-80e9-f9b36ec1b6a8.cfapps.io
+
+security:
+    basic:
+        enabled: false
+
 management:
+  security:
+        enabled: false
   endpoints:
     web:
       exposure:
@@ -18,6 +25,6 @@ management:
 default:
    item:
        id: 1001
-       name: dev item
-       desc: dev desc
+       name: qa item
+       desc: qa desc
        price: 0.0
