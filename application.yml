@@ -1,3 +1,9 @@
 server:
-    port: 8084
+    port: 8085
+default:
+   item:
+       id: 1001
+       name: default item
+       desc: default desc
+       price: 0.0
  
