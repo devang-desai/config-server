@@ -1,7 +1,7 @@
 default:
    item:
        id: 1001
-       name: abc item
-       desc: abc desc
+       name: xyz item
+       desc: xyz desc
        price: 0.0
  
