@@ -1,5 +1,3 @@
-server:
-    port: 8085
 default:
    item:
        id: 1001
